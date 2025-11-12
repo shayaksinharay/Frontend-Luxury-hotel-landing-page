@@ -4,6 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* small resets & custom tokens to match Luxort look */
 :root{
   --luxor-cream: #ECE9E0;
   --luxor-sage: #DADFD6;
@@ -11,8 +12,28 @@
   --luxor-forest: #19372E;
 }
 
+/* page background */
+html,body,#root{
+  height:100%;
+}
 body{
   background: var(--luxor-dark);
   font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
   color: #1b1b1b;
 }
+
+/* container to reproduce screenshot's tall, centered column */
+.container-centered{
+  max-width: 720px;
+  margin: 36px auto;
+}
+
+/* card look used many times */
+.card {
+  background: var(--luxor-cream);
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(10,10,10,0.04);
+}
+
+/* subtle separators */
+.hr-custom { height:1px; background:#e2e2da; width:100%; display:block; margin:22px 0; }
