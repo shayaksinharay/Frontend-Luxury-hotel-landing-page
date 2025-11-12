@@ -9,12 +9,12 @@ module.exports = {
     extend: {
       colors: {
         luxor: {
-          cream: "#ECE9E0",
-          lightSand: "#EEECE6",
-          sage: "#DADFD6",
-          muted: "#CFCFCA",
-          darkGreen: "#0F2B23",
-          forest: "#19372E"
+          cream: "#ECE9E0",       // page cream background
+          lightSand: "#EEECE6",  // alternate cream
+          sage: "#DADFD6",       // pale sage panels
+          muted: "#CFCFCA",      // muted panel
+          darkGreen: "#0F2B23",  // footer / dark accents
+          forest: "#19372E"      // deep forest accent
         }
       },
       fontFamily: {
