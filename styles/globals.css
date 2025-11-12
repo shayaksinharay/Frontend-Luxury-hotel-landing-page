@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@400;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --luxor-cream: #ECE9E0;
+  --luxor-sage: #DADFD6;
+  --luxor-dark: #0F2B23;
+  --luxor-forest: #19372E;
+}
+
+body{
+  background: var(--luxor-dark);
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  color: #1b1b1b;
+}
